@@ -10,6 +10,7 @@ export class Config {
 
   public readonly api = {
     opendict: process.env.API_OPENDICT!,
+    coreURL: process.env.API_CORE_SERVER_URL!,
   }
 
   public database_url = process.env.DATABASE_URL!

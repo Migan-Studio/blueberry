@@ -1,6 +1,4 @@
-// import { version } from '../package.json'
 import { Config, NODE_ENV, ReleaseChannel, version } from './modules'
-import { Maintenance } from './modules/api'
 import { PrismaClient } from '@prisma/client'
 import { SapphireClient, container, LogLevel } from '@sapphire/framework'
 import { GatewayIntentBits, Partials } from 'discord.js'
@@ -31,7 +29,6 @@ container.embedColors = {
   fail: 0xff0000,
   success: 0x00ff00,
 }
-container.maintenance = null
 container.heartbeatInterval = 60_000
 
 if (release.startsWith('e')) {
@@ -83,7 +80,6 @@ declare module '@sapphire/framework' {
       fail: number
       success: number
     }
-    maintenance: Maintenance | null
     heartbeatInterval: number
   }
 

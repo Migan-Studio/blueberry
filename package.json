@@ -33,6 +33,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.3",
     "globals": "^15.15.0",
+    "minimist": "^1.2.8",
     "nodemon": "^3.1.9",
     "prettier": "^3.5.2",
     "prisma": "^5.22.0",
@@ -44,7 +45,8 @@
     "start": "cross-env NODE_ENV=production node dist",
     "db:pull": "prisma db pull",
     "db:push": "prisma db push",
-    "db:generate": "prisma generate"
+    "db:generate": "prisma generate",
+    "deleteAllCommands": "node scripts/deleteAllCommands"
   },
   "resolutions": {
     "@types/ws": "^8.5.11",

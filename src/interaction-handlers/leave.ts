@@ -25,7 +25,7 @@ export default class LeaveInteractionHandler extends InteractionHandler {
           {
             title: '탈퇴',
             description: '탈퇴를 취소했어요.',
-            color: 0xff0000,
+            color: this.container.embedColors.fail,
           },
         ],
         components: [],
@@ -44,7 +44,7 @@ export default class LeaveInteractionHandler extends InteractionHandler {
           embeds: [
             {
               title: '탈퇴',
-              color: 0x00ff00,
+              color: this.container.embedColors.success,
               description: '탈퇴를 완료했어요.',
               timestamp: new Date().toISOString(),
               footer: {

@@ -22,7 +22,7 @@ export default class JoinHandler extends InteractionHandler {
         embeds: [
           {
             title: `${this.container.client.user?.username} 서비스 가입`,
-            color: 0xff0000,
+            color: this.container.embedColors.fail,
             description: '서비스 가입을 거부하였어요.',
           },
         ],
@@ -41,7 +41,7 @@ export default class JoinHandler extends InteractionHandler {
           embeds: [
             {
               title: `${this.container.client.user?.username} 서비스 가입`,
-              color: 0x00ff00,
+              color: this.container.embedColors.success,
               description: '서비스에 가입하였어요.',
             },
           ],

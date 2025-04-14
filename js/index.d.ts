@@ -1,1 +1,1 @@
-export function dueum(char: string): string
+export function dueum(char: string): string;

@@ -62,8 +62,8 @@ importers:
         specifier: ^9.21.0
         version: 9.22.0
       '@migan/prettier-config':
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^2.0.0
+        version: 2.0.0
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.2
         version: 5.2.2(prettier@3.5.3)
@@ -550,6 +550,9 @@ packages:
 
   '@migan/prettier-config@1.2.0':
     resolution: {integrity: sha512-FqTGSqDAkmCoDiOBfbFuAcp/pcU0BjrAyUerr8yGMN8VrYIvWF6LuD49/66meel1URRR+RKAf7EinyWwlf55Rg==}
+
+  '@migan/prettier-config@2.0.0':
+    resolution: {integrity: sha512-bezWe+P/VRVLg6y6pW/WIgKNGy/AVTNXBBmYuREwZ9MMkRBIjHYSgsnaFPZk9NlYdOY+Ds0rnDMp7Hin2bo4og==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2998,6 +3001,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.0
 
   '@migan/prettier-config@1.2.0': {}
+
+  '@migan/prettier-config@2.0.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

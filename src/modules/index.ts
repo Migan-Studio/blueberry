@@ -15,6 +15,6 @@
 //   Config,
 //   noPerm,
 // }
-export * from './configs'
-export * from './utils'
-export * from './wordRelay'
+export * from "./configs";
+export * from "./utils";
+export * from "./wordRelay";

@@ -1,3 +1,3 @@
-export * from './wordRelay'
-export * from './types'
-export * from './api'
+export * from "./wordRelay";
+export * from "./types";
+export * from "./api";

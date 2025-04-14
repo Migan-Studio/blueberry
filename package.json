@@ -22,7 +22,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.21.0",
-    "@migan/prettier-config": "^1.2.0",
+    "@migan/prettier-config": "^2.0.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.13.5",
     "@types/semver": "^7.5.8",

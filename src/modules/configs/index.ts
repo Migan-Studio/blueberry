@@ -1,4 +1,4 @@
-export * from './env'
-export * from './config'
+export * from "./env";
+export * from "./config";
 
-export const version = '0.0.0-hydrogen.e250319b'
+export const version = "0.0.0-hydrogen.e250319b";
